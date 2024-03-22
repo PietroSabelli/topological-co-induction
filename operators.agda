@@ -20,7 +20,7 @@ _⇒_ : ∀ {A : Set} → (A → Set) → (A → Set) → Set _
 _⇒_ {A = A} P Q = {a : A} → P a → Q a
 
 _∘_ : ∀ {A} {P Q R : A → Set} → Q ⇒ R → P ⇒ Q → P ⇒ R
-g ∘ f = λ p → g (f p)
+_∘_ g f = λ p → g (f p)
 
 postulate
   funext : {A : Set} {B : A → Set} {f g : (a : A) → B a}
