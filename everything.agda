@@ -1,3 +1,13 @@
+{-
+  Agda formalisation of the results
+  in Martin-Löf's type theory of:
+  
+  i. “A Topological Counterpart of Well-founded Trees
+  in Dependent Type Theory”
+
+  ii. “A Topological Reading of Coinductive Predicates
+  in Dependent Type Theory”
+-}
 
 module everything where
 
