@@ -4,9 +4,9 @@
 open import Agda.Builtin.Equality
 open import Data.Product
 
--- We show that each endofunctor of the form
--- Conf I C is isomorphic to one of the form
--- Der Br ar
+-- Proposition 11 of
+-- "A topological reading of coinductive
+--  predicates in Dependent Type Theory"
 
 module Coinductive.Equivalences.DM-gives-Coind
   (A : Set)

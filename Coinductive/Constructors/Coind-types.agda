@@ -4,6 +4,11 @@
 
 open import Data.Product
 
+-- Type of Coinductive predicates
+-- See Appendix B of
+-- "A topological reading of coinductive
+--  predicates in Dependent Type Theory"
+
 module Coinductive.Constructors.Coind-types
   (A : Set)
   (I : A → Set)

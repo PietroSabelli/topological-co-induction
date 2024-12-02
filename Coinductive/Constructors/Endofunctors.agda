@@ -3,6 +3,11 @@
 
 open import Data.Product
 
+-- Endofunctors used to semantically define coinductive types
+-- as in Section 4 of
+-- "A topological reading of coinductive
+--  predicates in Dependent Type Theory"
+
 module Coinductive.Constructors.Endofunctors where
 
 _⇒_ : ∀ {A : Set} → (A → Set) → (A → Set) → Set

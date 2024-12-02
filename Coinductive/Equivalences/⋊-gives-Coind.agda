@@ -4,6 +4,11 @@
 open import Data.Unit
 open import Data.Product
 
+-- Theorem 10 of
+-- "A topological reading of coinductive
+--  predicates in Dependent Type Theory"
+-- recasted in Martin-Löf's type theory
+
 module Coinductive.Equivalences.⋊-gives-Coind
   (A : Set)
   (I : A → Set)
