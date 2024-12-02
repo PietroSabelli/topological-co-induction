@@ -2,7 +2,7 @@
 
 open import Data.Product
 
--- Type of  Coinductive positivity relations
+-- Type of Coinductive positivity relations
 -- See Appendix B of
 -- "A topological reading of coinductive
 --  predicates in Dependent Type Theory"
