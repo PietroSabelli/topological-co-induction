@@ -4,7 +4,7 @@
 open import Data.Unit
 open import Data.Product
 
--- Theorem 10 of
+-- Part of Theorem 10 in
 -- "A topological reading of coinductive
 --  predicates in Dependent Type Theory"
 -- recasted in Martin-Löf's type theory
